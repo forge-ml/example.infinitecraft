@@ -30,4 +30,4 @@ npm i
 npm run dev
 ```
 
-Link to Live Site: https://main--forge-infinitecraft.netlify.app/
+Link to Live Site: https://forge-infinitecraft.netlify.app/
