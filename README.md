@@ -29,3 +29,5 @@ To check out the project for yourself, you can clone the repository and run the 
 npm i
 npm run dev
 ```
+
+Link to Live Site: https://main--forge-infinitecraft.netlify.app/
