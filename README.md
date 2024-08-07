@@ -19,9 +19,11 @@ export async function getResource(resource1: string, resource2: string) {
 
 Just like that our entire backend is generated from a single function. Traditionally this would be an tedious process where a server would have to reach out to a database and find a valid combination of resources, but with forge we can do it in a single line of code.
 
+When making Infinite craft you would normally stored created resources into a database to speed up the process of finding valid combinations. However, since forge allows for caching it'll take care of this step for us. This means if one user combines earth and fire to make magma the next user who combines fire and eartch will hit the cached response magma and won't have to wait for the LLM to generate a response.
+
 ## Getting Started
 
-To get started with Infinite Craft, you can clone the repository and run the following commands:
+To check out the project for yourself, you can clone the repository and run the following commands:
 
 ```bash
 npm i
